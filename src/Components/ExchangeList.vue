@@ -60,7 +60,8 @@ export default {
     margin-bottom: 10px;
     font-weight: bold;
 }
-.exchange-icon{
+
+.exchange-icon {
     color: #ffbc8c;
     height: 25px;
     width: 25px;
