@@ -51,6 +51,12 @@ a {
     transition: color .2s ease;
 }
 
+// Page Wrapper
+.page-wrapper {
+    padding-top: 76px;
+}
+
+
 // Global classes
 .background-img {
     background-size: cover;
@@ -80,6 +86,10 @@ a {
                 color: $white;
                 font-weight: $weight-semibold;
                 text-transform: uppercase;
+
+                &:focus {
+                    background-color: transparent;
+                }
 
                 &:hover {
                     background-color: transparent;
